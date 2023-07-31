@@ -1,25 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 1
-      var dog = 8.0;
-      var cat = 3.6;
-      var paper = 763789;
-      System.out.println(dog);
-      System.out.println(cat);
-      System.out.println(paper);
-      //Задание 2
-      dog = dog + 4;
-      cat = cat + 4;
-      paper = paper + 4;
-      System.out.println(dog);
-      System.out.println(cat);
-      System.out.println(paper);
-      // Задание 3
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
+        //Задание 6
+      var boxer1 = 78.2;
+      var boxer2 = 82.7;
+      var answer1 = boxer1 + boxer2;
+      var answer2 = boxer2 - boxer1;
+      System.out.println("Боксеры весят вместе" +  answer1);
+      System.out.println("Разница в весе боксеров" + answer2);
+      // Задание 7
+        var asnwer3 = boxer2 % boxer1;
+        System.out.println("Остаток от деления" + asnwer3);
     }
 }
