@@ -1,25 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 1
-      var dog = 8.0;
-      var cat = 3.6;
-      var paper = 763789;
-      System.out.println(dog);
-      System.out.println(cat);
-      System.out.println(paper);
-      //Задание 2
-      dog = dog + 4;
-      cat = cat + 4;
-      paper = paper + 4;
-      System.out.println(dog);
-      System.out.println(cat);
-      System.out.println(paper);
-      // Задание 3
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
+        //Задание 8
+        var hour = 640;
+        var answer = 0;
+        var human = 8;
+        var people = hour / human;
+System.out.println("Всего работников в компании" + "-" + people + "человек");
+people = people + 94;
+answer = people * human;
+// Не уверен, что правильно понял задачу, а ещё я не понимаю делать в принте пробелы
+System.out.println("Если в компании работает" + people + "то всего" + answer + "часов работы может быть поделено между сотрудниками");
     }
 }
