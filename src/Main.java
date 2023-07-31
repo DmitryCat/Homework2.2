@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 6
-      var boxer1 = 78.2;
-      var boxer2 = 82.7;
-      var answer1 = boxer1 + boxer2;
-      var answer2 = boxer2 - boxer1;
-      System.out.println("Боксеры весят вместе" +  answer1);
-      System.out.println("Разница в весе боксеров" + answer2);
-      // Задание 7
-        var asnwer3 = boxer2 % boxer1;
-        System.out.println("Остаток от деления" + asnwer3);
+        //Задание 8
+        var hour = 640;
+        var answer = 0;
+        var human = 8;
+        var people = hour / human;
+System.out.println("Всего работников в компании" + "-" + people + "человек");
+people = people + 94;
+answer = people * human;
+// Не уверен, что правильно понял задачу, а ещё я не понимаю делать в принте пробелы
+System.out.println("Если в компании работает" + people + "то всего" + answer + "часов работы может быть поделено между сотрудниками");
     }
 }
